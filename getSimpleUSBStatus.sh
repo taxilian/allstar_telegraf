@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 SCRIPTNAME=${0%/*}/$1
 
@@ -26,5 +27,5 @@ echo \"cosInput\": ${COS_INPUT},
 echo \"cosTest\": ${COS_TEST},
 echo \"ctcssInput\": ${CTCSS_INPUT},
 echo \"ctcssOverride\": ${CTCSS_OVERRIDE},
-echo \"ptt\": ${PTT},
+echo \"ptt\": ${PTT}
 echo }
